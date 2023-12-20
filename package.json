@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@hcaptcha/react-hcaptcha": "^1.4.4",
+    "@netlify/plugin-nextjs": "^4.41.3",
     "@next/font": "13.1.1",
     "@tailwindcss/forms": "^0.5.3",
     "@types/node": "18.11.18",
